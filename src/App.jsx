@@ -15,7 +15,7 @@ const sortBy = sortByField => (a, b) => {
 
 export default function App () {
   const data = useCodeshare()
-  const [term, termSet] = useState('')
+  const [term, termSet] = useState((document.location.hash?.replace(/^#/, '') || '') + '')
   const [sortByField, sortByFieldSet] = useState('likes')
   const [results, resultsSet] = useState([])
 
@@ -23,19 +23,22 @@ export default function App () {
     if (term) {
       // very simplistic search
       resultsSet(
-        data.filter(row =>
+        (data || []).filter(row =>
           row.id.toLowerCase().includes(term.toLowerCase()) ||
             row.title.toLowerCase().includes(term.toLowerCase()) ||
             row.description.toLowerCase().includes(term.toLowerCase())
         ).sort(sortBy(sortByField))
       )
     } else {
-      resultsSet([...data].sort(sortBy(sortByField)))
+      resultsSet([...(data || [])].sort(sortBy(sortByField)))
     }
   }, [data, term, sortByField])
 
   const handleSortChange = e => sortByFieldSet(e.target.value)
-  const handleSearchChange = e => termSet(e.target.value)
+  const handleSearchChange = e => {
+    termSet(e.target.value)
+    document.location.hash = e.target.value
+  }
 
   return (
     <>
@@ -58,13 +61,13 @@ export default function App () {
         </div>
       </header>
 
-      {!results?.length && (
+      {!data && (
         <div className='m-4 flex gap-2 items-center'>
           <span className='loading loading-spinner loading-lg' /> Please wait...
         </div>
       )}
 
-      {!!results?.length && (
+      {!!data?.length && (
         <div className='gap-2 flex flex-wrap p-4'>
           {results.map((row, i) => (
             <div key={i} className='card bg-base-100 w-96 shadow-xl'>
