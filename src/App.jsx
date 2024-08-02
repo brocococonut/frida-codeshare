@@ -15,18 +15,27 @@ const sortBy = sortByField => (a, b) => {
 
 export default function App () {
   const data = useCodeshare()
-  const [term, setTerm] = useState('')
+  const [term, termSet] = useState('')
   const [sortByField, sortByFieldSet] = useState('likes')
   const [results, resultsSet] = useState([])
 
   useEffect(() => {
-    if (data && term) {
+    if (term) {
       // very simplistic search
-      resultsSet(data.filter(row => row.id.toLowerCase().includes(term.toLowerCase()) || row.title.toLowerCase().includes(term.toLowerCase()) || row.description.toLowerCase().includes(term.toLowerCase())).sort(sortBy(sortByField)))
+      resultsSet(
+        data.filter(row =>
+          row.id.toLowerCase().includes(term.toLowerCase()) ||
+            row.title.toLowerCase().includes(term.toLowerCase()) ||
+            row.description.toLowerCase().includes(term.toLowerCase())
+        ).sort(sortBy(sortByField))
+      )
     } else {
-      resultsSet(data?.sort(sortBy(sortByField)) || [])
+      resultsSet([...data].sort(sortBy(sortByField)))
     }
   }, [data, term, sortByField])
+
+  const handleSortChange = e => sortByFieldSet(e.target.value)
+  const handleSearchChange = e => termSet(e.target.value)
 
   return (
     <>
@@ -37,25 +46,25 @@ export default function App () {
         </div>
         <div className='flex-none gap-2'>
           <div className='text-nowrap'>Sort by</div>
-          <select className='select select-bordered w-full max-w-xs' value={sortByField} onChange={e => sortByFieldSet(e.target.value)}>
+          <select className='select select-bordered w-full max-w-xs' value={sortByField} onChange={handleSortChange}>
             <option value='id'>Author</option>
             <option value='likes'>Number Likes</option>
             <option value='title'>Title</option>
             <option value='seen'>Number Seen</option>
           </select>
           <div className='form-control'>
-            <input type='text' placeholder='Search' className='input input-bordered w-24 md:w-auto' value={term} onChange={e => setTerm(e.target.value)} />
+            <input type='text' placeholder='Search' className='input input-bordered w-24 md:w-auto' value={term} onChange={handleSearchChange} />
           </div>
         </div>
       </header>
 
-      {!data && (
-        <>
+      {!results?.length && (
+        <div className='m-4 flex gap-2 items-center'>
           <span className='loading loading-spinner loading-lg' /> Please wait...
-        </>
+        </div>
       )}
 
-      {data && (
+      {!!results?.length && (
         <div className='gap-2 flex flex-wrap p-4'>
           {results.map((row, i) => (
             <div key={i} className='card bg-base-100 w-96 shadow-xl'>
