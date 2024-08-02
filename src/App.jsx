@@ -42,7 +42,7 @@ export default function App () {
 
   return (
     <>
-      <header className='navbar bg-base-100 sticky top-0 bg-neutral z-50'>
+      <header className='navbar bg-base-200 sticky top-0 z-50'>
         <div className='flex flex-col items-start flex-1'>
           <a className='btn btn-ghost text-xl' href=''>Frida CodeShare</a>
           <p className='text-xs ml-4'>This is a searchable mirror of <a className='btn-link' href='https://codeshare.frida.re/browse'>Frida CodeShare</a> that is updated once a day. You can also download the <a className='btn-link' href='codeshare.json'>JSON</a></p>
