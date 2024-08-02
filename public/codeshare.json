@@ -5,7 +5,7 @@
     "description": "Android SSL Re-Pinning, more information can be found here https://techblog.mediaservice.net/2017/07/universal-android-ssl-pinning-bypass-with-frida/",
     "author": "pcipolloni",
     "likes": 95,
-    "seen": 354000
+    "seen": 355000
   },
   {
     "id": "akabe1/frida-multiple-unpinning",
@@ -256,14 +256,6 @@
     "seen": 7000
   },
   {
-    "id": "cryptax/inmemorydexclassloader-dump",
-    "title": "InMemoryDexClassLoader dump",
-    "description": "Dumps bytes of DEX provided to InMemoryDexClassLoader on Android",
-    "author": "cryptax",
-    "likes": 4,
-    "seen": 7000
-  },
-  {
     "id": "dzervas/android-location-spoofing",
     "title": "Android Location Spoofing",
     "description": "Spoofs the current location reported by GPS",
@@ -384,14 +376,6 @@
     "seen": 7000
   },
   {
-    "id": "zionspike/bypass-developermode-check-android",
-    "title": "Bypass DeveloperMode Check Android",
-    "description": "Some Android apps do not allow to run when the developer mode is enabled on the device. This script was written for bypassing developer mode check on an Android app. ",
-    "author": "zionspike",
-    "likes": 3,
-    "seen": 2000
-  },
-  {
     "id": "oleavr/read-std-string",
     "title": "read-std-string",
     "description": "How to read an std::string",
@@ -416,52 +400,12 @@
     "seen": 10000
   },
   {
-    "id": "Serhatcck/java-crypto-viewer",
-    "title": "java-crypto-viewer",
-    "description": "View crypto operations in java(android)",
-    "author": "Serhatcck",
-    "likes": 3,
-    "seen": 4000
-  },
-  {
     "id": "dki/ios-url-scheme-fuzzing",
     "title": "iOS URL Scheme Fuzzing",
     "description": "Black-box fuzzing of URL schemes for iOS apps using SpringBoard.  Automates launching the app via URL, backgrounding, and checking for a crash.  Bonus function to dump all registered URL schemes.",
     "author": "dki",
     "likes": 3,
     "seen": 18000
-  },
-  {
-    "id": "dki/ios10-ssl-bypass",
-    "title": "ios10-ssl-bypass",
-    "description": "Bypass SSL certificate validation for the injected app on iOS 10/11",
-    "author": "dki",
-    "likes": 3,
-    "seen": 16000
-  },
-  {
-    "id": "ninjadiary/sqlite-database",
-    "title": "SQLite Database",
-    "description": "The secret diary on ninja frida SQLite database general hooks",
-    "author": "ninjadiary",
-    "likes": 3,
-    "seen": 6000
-  },
-  {
-    "id": "leolashkevych/android-deep-link-observer",
-    "title": "Android Deep Link Observer",
-    "description": "Dumping URI data from a deep link ",
-    "author": "leolashkevych",
-    "likes": 3,
-    "seen": 8000
-  },
-  {
-    "id": "Alkeraithe/encryptedsharedpreferences",
-    "title": "EncryptedSharedPreferences",
-    "description": "Check values saved into EncryptedSharedPreferences before encryption",
-    "author": "Alkeraithe",
-    "likes": 3,
-    "seen": 5000
   },
   {
     "id": "fdciabdul/frida-multiple-bypass",
@@ -528,14 +472,6 @@
     "seen": 3000
   },
   {
-    "id": "kooroshh/ssl-pinning-bypass-okhttp4",
-    "title": "ssl-pinning-bypass-okhttp4",
-    "description": "bypassing SSL Pinning for okhttp4 based on @pcipolloni and  @akabe1",
-    "author": "kooroshh",
-    "likes": 2,
-    "seen": 7000
-  },
-  {
     "id": "Fitblip/hello-world",
     "title": "Hello World",
     "description": "Just a simple demonstration project :) ",
@@ -600,22 +536,6 @@
     "seen": 3000
   },
   {
-    "id": "LukeTheWalker/ios13-tls-keylogger",
-    "title": "ios13-tls-keylogger",
-    "description": "A ssl-keylogger made from the code of andydavies, just changed the offset according to comments",
-    "author": "LukeTheWalker",
-    "likes": 2,
-    "seen": 1000
-  },
-  {
-    "id": "Rablidad/ios-16-location-spoofing",
-    "title": "iOS 16 Location Spoofing",
-    "description": "Spoof your location in iOS 16.6.0 for apps that depends on CLLocation coordinate",
-    "author": "Rablidad",
-    "likes": 2,
-    "seen": 460
-  },
-  {
     "id": "xperylab/ios-sqlite3",
     "title": "iOS sqlite3",
     "description": " dump SQL queries on iOS ",
@@ -648,54 +568,6 @@
     "seen": 1000
   },
   {
-    "id": "xperylab/ios-sqlite3",
-    "title": "iOS sqlite3",
-    "description": " dump SQL queries on iOS ",
-    "author": "xperylab",
-    "likes": 2,
-    "seen": 2000
-  },
-  {
-    "id": "LukeTheWalker/ios13-tls-keylogger",
-    "title": "ios13-tls-keylogger",
-    "description": "A ssl-keylogger made from the code of andydavies, just changed the offset according to comments",
-    "author": "LukeTheWalker",
-    "likes": 2,
-    "seen": 1000
-  },
-  {
-    "id": "snooze6/everything",
-    "title": "everything",
-    "description": "Cheap n'dirty",
-    "author": "snooze6",
-    "likes": 2,
-    "seen": 9000
-  },
-  {
-    "id": "Rablidad/ios-16-location-spoofing",
-    "title": "iOS 16 Location Spoofing",
-    "description": "Spoof your location in iOS 16.6.0 for apps that depends on CLLocation coordinate",
-    "author": "Rablidad",
-    "likes": 2,
-    "seen": 460
-  },
-  {
-    "id": "tiiime/android-network-security-config-bypass",
-    "title": "Android Network Security Config Bypass",
-    "description": "Trust User Installed Certificate ",
-    "author": "tiiime",
-    "likes": 2,
-    "seen": 7000
-  },
-  {
-    "id": "RohindhR/react-native-jail-monkey-bypass-all-checks",
-    "title": "react-native-jail-monkey-bypass-all-checks",
-    "description": "Frida script for bypassing React Native Jail Monkey checks",
-    "author": "RohindhR",
-    "likes": 2,
-    "seen": 1000
-  },
-  {
     "id": "luoyesiqiu/android-native-log",
     "title": "Android Native Log",
     "description": "Use liblog.so output log ",
@@ -709,7 +581,7 @@
     "description": "Nearly universal SSL unpinning script for Android. Original: https://gist.github.com/teknogeek/4dc35fb3801bd7f13e5f0da5b784c725",
     "author": "teknogeek",
     "likes": 1,
-    "seen": 598
+    "seen": 599
   },
   {
     "id": "bundamodelagency/looking-for-security-analysts",
@@ -774,38 +646,6 @@
     "author": "mrmacete",
     "likes": 1,
     "seen": 2000
-  },
-  {
-    "id": "oleavr/gobject-lifetime-tracker",
-    "title": "GObject lifetime tracker",
-    "description": "Keep an eye on newly created objects in GNOME applications",
-    "author": "oleavr",
-    "likes": 1,
-    "seen": 3000
-  },
-  {
-    "id": "teknogeek/android-universal-ssl-unpin",
-    "title": "Android Universal SSL Unpin",
-    "description": "Nearly universal SSL unpinning script for Android. Original: https://gist.github.com/teknogeek/4dc35fb3801bd7f13e5f0da5b784c725",
-    "author": "teknogeek",
-    "likes": 1,
-    "seen": 598
-  },
-  {
-    "id": "Ch0pin/log4jfrida",
-    "title": "Log4jFrida",
-    "description": "Change various Android Device Characteristics in order to return a Log4J payload",
-    "author": "Ch0pin",
-    "likes": 1,
-    "seen": 4000
-  },
-  {
-    "id": "chepaika/ios-clicklog",
-    "title": "ios-clicklog",
-    "description": "Simple frida script that Intercept all calbacks of iOS's UIControls, like button click and write to console which of them will be called when user will interact with UIControl.",
-    "author": "chepaika",
-    "likes": 1,
-    "seen": 998
   },
   {
     "id": "JJK96/iroot-root-detection-bypass",
@@ -880,36 +720,12 @@
     "seen": 1000
   },
   {
-    "id": "ninjadiary/frinja-crypto",
-    "title": "Frinja Crypto",
-    "description": "The secret diary of ninja's scripts about general Crypto Hooks",
-    "author": "ninjadiary",
-    "likes": 1,
-    "seen": 9000
-  },
-  {
     "id": "FixedOctocat/geopos-and-sensor-forgery-for-pacer",
     "title": "Geopos and Sensor forgery for Pacer",
     "description": "Script for geoposition and motion sensor activity forgery for pacer app",
     "author": "FixedOctocat",
     "likes": 1,
     "seen": 653
-  },
-  {
-    "id": "teknogeek/android-universal-ssl-unpin",
-    "title": "Android Universal SSL Unpin",
-    "description": "Nearly universal SSL unpinning script for Android. Original: https://gist.github.com/teknogeek/4dc35fb3801bd7f13e5f0da5b784c725",
-    "author": "teknogeek",
-    "likes": 1,
-    "seen": 598
-  },
-  {
-    "id": "oleavr/ios-ssh-diagnostics",
-    "title": "ios-ssh-diagnostics",
-    "description": "iOS SSH diagnostics",
-    "author": "oleavr",
-    "likes": 1,
-    "seen": 1000
   },
   {
     "id": "L4ZARIN3/gantix-jail-monkey-anti-root-anti-frida-anti-adb-bypass-",
@@ -928,46 +744,6 @@
     "seen": 349
   },
   {
-    "id": "iDone/automatic-magic-code-locating-loader",
-    "title": "Automatic Magic Code Locating Loader",
-    "description": "Automatic Magic Code Locating 010 Editor App for macOS Loader(Bypass License Patcher) Created by B.S.  Usage:  frida --codeshare iDone/automatic-magic-code-locating-loader -f /Applications/010\\ Editor.app/Contents/MacOS/010\\ Editor --no-pause",
-    "author": "iDone",
-    "likes": 1,
-    "seen": 2000
-  },
-  {
-    "id": "crazygaman/cipher",
-    "title": "cipher",
-    "description": "drfdddddddgdgdg",
-    "author": "crazygaman",
-    "likes": 1,
-    "seen": 233
-  },
-  {
-    "id": "snooze6/ios-pinning-disable",
-    "title": "iOS pinning disable",
-    "description": "Disable pinning by patching SecTrustEvaluate ",
-    "author": "snooze6",
-    "likes": 1,
-    "seen": 11000
-  },
-  {
-    "id": "sahabrifki/okhttp3-obfuscated---ssl-pinning-bypass",
-    "title": "Okhttp3 Obfuscated - SSL Pinning Bypass",
-    "description": "This Code is running and bypassing latest okhttp3 with obfuscated code. ",
-    "author": "sahabrifki",
-    "likes": 1,
-    "seen": 72
-  },
-  {
-    "id": "Numenorean/swiftstring",
-    "title": "SwiftString",
-    "description": "Functions and classes that help you in hooking some Swift functions",
-    "author": "Numenorean",
-    "likes": 1,
-    "seen": 2000
-  },
-  {
     "id": "khoomelvin/fridaantiroot",
     "title": "Fridaantiroot",
     "description": "Root",
@@ -980,22 +756,6 @@
     "title": "MonitorSQL",
     "description": "Print all SQL queries executed from android sqlite, and sqlcipher",
     "author": "Alkeraithe",
-    "likes": 1,
-    "seen": 2000
-  },
-  {
-    "id": "FixedOctocat/geopos-and-sensor-forgery-for-pacer",
-    "title": "Geopos and Sensor forgery for Pacer",
-    "description": "Script for geoposition and motion sensor activity forgery for pacer app",
-    "author": "FixedOctocat",
-    "likes": 1,
-    "seen": 653
-  },
-  {
-    "id": "vadim-a-yegorov/universalunpinner",
-    "title": "universalunpinner",
-    "description": "Flutter, OkHTTPv3, HttpsURLConnection, TrustKit universal SSL unpinner for Android.",
-    "author": "vadim-a-yegorov",
     "likes": 1,
     "seen": 2000
   },
@@ -1021,23 +781,7 @@
     "description": "This script dynamically instruments Android applications using Frida to bypass all security checks, root detection, debugger detection, ssl pinning, and alter network information. | by h4rithd.com",
     "author": "h4rithd",
     "likes": 1,
-    "seen": 327
-  },
-  {
-    "id": "khoomelvin/fridaantiroot",
-    "title": "Fridaantiroot",
-    "description": "Root",
-    "author": "khoomelvin",
-    "likes": 1,
-    "seen": 3000
-  },
-  {
-    "id": "Ch0pin/log4jfrida",
-    "title": "Log4jFrida",
-    "description": "Change various Android Device Characteristics in order to return a Log4J payload",
-    "author": "Ch0pin",
-    "likes": 1,
-    "seen": 4000
+    "seen": 328
   },
   {
     "id": "darklotuskdb/ios-wrapper-jailbreak-detection-bypass",
@@ -1048,44 +792,12 @@
     "seen": 1000
   },
   {
-    "id": "h4rithd/onerule-by-h4rithd",
-    "title": "OneRule by h4rithd",
-    "description": "This script dynamically instruments Android applications using Frida to bypass all security checks, root detection, debugger detection, ssl pinning, and alter network information. | by h4rithd.com",
-    "author": "h4rithd",
-    "likes": 1,
-    "seen": 327
-  },
-  {
-    "id": "iDone/automatic-magic-code-locating-loader",
-    "title": "Automatic Magic Code Locating Loader",
-    "description": "Automatic Magic Code Locating 010 Editor App for macOS Loader(Bypass License Patcher) Created by B.S.  Usage:  frida --codeshare iDone/automatic-magic-code-locating-loader -f /Applications/010\\ Editor.app/Contents/MacOS/010\\ Editor --no-pause",
-    "author": "iDone",
-    "likes": 1,
-    "seen": 2000
-  },
-  {
     "id": "Surendrajat/anti-root",
     "title": "anti-root",
     "description": "Android Root-detection Bypass",
     "author": "Surendrajat",
     "likes": 1,
     "seen": 2000
-  },
-  {
-    "id": "vadim-a-yegorov/universalunpinner",
-    "title": "universalunpinner",
-    "description": "Flutter, OkHTTPv3, HttpsURLConnection, TrustKit universal SSL unpinner for Android.",
-    "author": "vadim-a-yegorov",
-    "likes": 1,
-    "seen": 2000
-  },
-  {
-    "id": "sahabrifki/okhttp3-obfuscated---ssl-pinning-bypass",
-    "title": "Okhttp3 Obfuscated - SSL Pinning Bypass",
-    "description": "This Code is running and bypassing latest okhttp3 with obfuscated code. ",
-    "author": "sahabrifki",
-    "likes": 1,
-    "seen": 72
   },
   {
     "id": "raphc43/chrome-url-interceptor",
@@ -1140,14 +852,6 @@
     "title": "vipps-antijb",
     "description": "Disables jailbreak detection in the Vipps app",
     "author": "oleavr",
-    "likes": 1,
-    "seen": 2000
-  },
-  {
-    "id": "Alkeraithe/monitorsql",
-    "title": "MonitorSQL",
-    "description": "Print all SQL queries executed from android sqlite, and sqlcipher",
-    "author": "Alkeraithe",
     "likes": 1,
     "seen": 2000
   },
@@ -1160,172 +864,12 @@
     "seen": 5000
   },
   {
-    "id": "andydavies/ios-tls-keylogger",
-    "title": "ios-tls-keylogger",
-    "description": "Hooks libboringssl.dylib to extract TLS keys and enables decryption of network traffic from iOS apps to be decrypted. Tested on iPhone 5s running iOS 12.4.2 jailbroken with Checkrain.",
-    "author": "andydavies",
-    "likes": 1,
-    "seen": 8000
-  },
-  {
-    "id": "ChiChou/objective-c-class-hierarchy-dumper",
-    "title": "Objective C class hierarchy dumper",
-    "description": "dump Objective C classes hierarchy",
-    "author": "ChiChou",
-    "likes": 1,
-    "seen": 3000
-  },
-  {
-    "id": "raphc43/chrome-url-interceptor",
-    "title": "Chrome URL Interceptor",
-    "description": "Script to instantly display current tab URL on Chrome Android (Suitable for fast URL capturing). Buy me a coffee: https://www.buymeacoffee.com/raphaelQ",
-    "author": "raphc43",
-    "likes": 1,
-    "seen": 400
-  },
-  {
-    "id": "teknogeek/android-universal-ssl-unpin",
-    "title": "Android Universal SSL Unpin",
-    "description": "Nearly universal SSL unpinning script for Android. Original: https://gist.github.com/teknogeek/4dc35fb3801bd7f13e5f0da5b784c725",
-    "author": "teknogeek",
-    "likes": 1,
-    "seen": 598
-  },
-  {
-    "id": "mrmacete/stalker-event-parser",
-    "title": "Stalker event parser",
-    "description": "Totally inefficient, client-side toy parser for Stalker events. It's mostly useful for exploring and debugging the Stalker.",
-    "author": "mrmacete",
-    "likes": 1,
-    "seen": 6000
-  },
-  {
-    "id": "dki/find-ios-app-by-display-name",
-    "title": "find-ios-app-by-display-name",
-    "description": "Look up the location of an iOS app on the device using the name displayed under the icon.",
-    "author": "dki",
-    "likes": 1,
-    "seen": 3000
-  },
-  {
     "id": "d3z3n0v3/trace-function-calls",
     "title": "trace-function-calls",
     "description": "Dynamically tracing Java function calls within a given package",
     "author": "d3z3n0v3",
     "likes": 1,
     "seen": 4000
-  },
-  {
-    "id": "ninjadiary/frinja-scripts---textview",
-    "title": "Frinja Scripts - TextView",
-    "description": "The secret diary of ninja scripts' regarding TextView General Hooking",
-    "author": "ninjadiary",
-    "likes": 1,
-    "seen": 1000
-  },
-  {
-    "id": "iDone/automatic-magic-code-locating-loader",
-    "title": "Automatic Magic Code Locating Loader",
-    "description": "Automatic Magic Code Locating 010 Editor App for macOS Loader(Bypass License Patcher) Created by B.S.  Usage:  frida --codeshare iDone/automatic-magic-code-locating-loader -f /Applications/010\\ Editor.app/Contents/MacOS/010\\ Editor --no-pause",
-    "author": "iDone",
-    "likes": 1,
-    "seen": 2000
-  },
-  {
-    "id": "LAripping/trace-registernatives",
-    "title": "Trace RegisterNatives",
-    "description": "Trace invocations of the RegisterNatives JNI API, to identify native functions registered from within native code on runtime",
-    "author": "LAripping",
-    "likes": 1,
-    "seen": 3000
-  },
-  {
-    "id": "oleavr/vipps-antijb",
-    "title": "vipps-antijb",
-    "description": "Disables jailbreak detection in the Vipps app",
-    "author": "oleavr",
-    "likes": 1,
-    "seen": 2000
-  },
-  {
-    "id": "FixedOctocat/geopos-and-sensor-forgery-for-pacer",
-    "title": "Geopos and Sensor forgery for Pacer",
-    "description": "Script for geoposition and motion sensor activity forgery for pacer app",
-    "author": "FixedOctocat",
-    "likes": 1,
-    "seen": 653
-  },
-  {
-    "id": "Alkeraithe/monitorsql",
-    "title": "MonitorSQL",
-    "description": "Print all SQL queries executed from android sqlite, and sqlcipher",
-    "author": "Alkeraithe",
-    "likes": 1,
-    "seen": 2000
-  },
-  {
-    "id": "silva95gustavo/okhttp3-certificate-pinner-bypass",
-    "title": "okhttp3-certificate-pinner-bypass",
-    "description": "Bypass SSL certificate pinning for okhttp3",
-    "author": "silva95gustavo",
-    "likes": 1,
-    "seen": 2000
-  },
-  {
-    "id": "sahabrifki/okhttp3-obfuscated---ssl-pinning-bypass",
-    "title": "Okhttp3 Obfuscated - SSL Pinning Bypass",
-    "description": "This Code is running and bypassing latest okhttp3 with obfuscated code. ",
-    "author": "sahabrifki",
-    "likes": 1,
-    "seen": 72
-  },
-  {
-    "id": "Ch0pin/log4jfrida",
-    "title": "Log4jFrida",
-    "description": "Change various Android Device Characteristics in order to return a Log4J payload",
-    "author": "Ch0pin",
-    "likes": 1,
-    "seen": 4000
-  },
-  {
-    "id": "mrmacete/stalker-event-parser",
-    "title": "Stalker event parser",
-    "description": "Totally inefficient, client-side toy parser for Stalker events. It's mostly useful for exploring and debugging the Stalker.",
-    "author": "mrmacete",
-    "likes": 1,
-    "seen": 6000
-  },
-  {
-    "id": "dki/find-ios-app-by-display-name",
-    "title": "find-ios-app-by-display-name",
-    "description": "Look up the location of an iOS app on the device using the name displayed under the icon.",
-    "author": "dki",
-    "likes": 1,
-    "seen": 3000
-  },
-  {
-    "id": "ninjadiary/frinja-scripts---textview",
-    "title": "Frinja Scripts - TextView",
-    "description": "The secret diary of ninja scripts' regarding TextView General Hooking",
-    "author": "ninjadiary",
-    "likes": 1,
-    "seen": 1000
-  },
-  {
-    "id": "LAripping/trace-registernatives",
-    "title": "Trace RegisterNatives",
-    "description": "Trace invocations of the RegisterNatives JNI API, to identify native functions registered from within native code on runtime",
-    "author": "LAripping",
-    "likes": 1,
-    "seen": 3000
-  },
-  {
-    "id": "oleavr/vipps-antijb",
-    "title": "vipps-antijb",
-    "description": "Disables jailbreak detection in the Vipps app",
-    "author": "oleavr",
-    "likes": 1,
-    "seen": 2000
   },
   {
     "id": "silva95gustavo/okhttp3-certificate-pinner-bypass",
@@ -1344,20 +888,12 @@
     "seen": 380
   },
   {
-    "id": "iDone/automatic-magic-code-locating-loader",
-    "title": "Automatic Magic Code Locating Loader",
-    "description": "Automatic Magic Code Locating 010 Editor App for macOS Loader(Bypass License Patcher) Created by B.S.  Usage:  frida --codeshare iDone/automatic-magic-code-locating-loader -f /Applications/010\\ Editor.app/Contents/MacOS/010\\ Editor --no-pause",
-    "author": "iDone",
-    "likes": 1,
-    "seen": 2000
-  },
-  {
     "id": "joaoviictorti/logs-android-frida-ts",
     "title": "logs-android-frida-ts",
     "description": "Script written in JavaScript to perform Android Log function hooks in search of sensitive information.",
     "author": "joaoviictorti",
     "likes": 1,
-    "seen": 695
+    "seen": 696
   },
   {
     "id": "dzonerzy/hashinfo",
@@ -1376,36 +912,12 @@
     "seen": 1000
   },
   {
-    "id": "Numenorean/swiftstring",
-    "title": "SwiftString",
-    "description": "Functions and classes that help you in hooking some Swift functions",
-    "author": "Numenorean",
-    "likes": 1,
-    "seen": 2000
-  },
-  {
-    "id": "vadim-a-yegorov/universalunpinner",
-    "title": "universalunpinner",
-    "description": "Flutter, OkHTTPv3, HttpsURLConnection, TrustKit universal SSL unpinner for Android.",
-    "author": "vadim-a-yegorov",
-    "likes": 1,
-    "seen": 2000
-  },
-  {
     "id": "0x79H/ipa-dynamic-check",
     "title": "ipa-dynamic-check",
     "description": "check some permissions",
     "author": "0x79H",
     "likes": 1,
     "seen": 1000
-  },
-  {
-    "id": "L4ZARIN3/gantix-jail-monkey-anti-root-anti-frida-anti-adb-bypass-",
-    "title": "Gantix Jail Monkey anti-root anti-frida anti-adb BYPASS ",
-    "description": " Bypass some functions of the Gantix Jail Monkey package",
-    "author": "L4ZARIN3",
-    "likes": 1,
-    "seen": 720
   },
   {
     "id": "jankais3r/ios-15-tls-keylogger",
@@ -1661,7 +1173,7 @@
     "description": "changed offsed based on comments ",
     "author": "chesteroni",
     "likes": 0,
-    "seen": 680
+    "seen": 681
   },
   {
     "id": "ercu/okhttp-log-root",
@@ -1896,14 +1408,6 @@
     "seen": 1000
   },
   {
-    "id": "jsinge97/ssl-withtime",
-    "title": "ssl-withtime",
-    "description": "ssl",
-    "author": "jsinge97",
-    "likes": 0,
-    "seen": 874
-  },
-  {
     "id": "Malfarion/3",
     "title": "3",
     "description": "3",
@@ -1968,28 +1472,12 @@
     "seen": 2000
   },
   {
-    "id": "rodnt/ios-jailbreak-bypass",
-    "title": "iOS jailbreak bypass",
-    "description": "Bypass jailbreak based on path verification",
-    "author": "rodnt",
-    "likes": 0,
-    "seen": 1000
-  },
-  {
     "id": "volcanoboy08/bothstufdfs",
     "title": "Bothstufdfs",
     "description": "Bypas",
     "author": "volcanoboy08",
     "likes": 0,
     "seen": 152
-  },
-  {
-    "id": "KishorBal/multiple-root-detection-bypass",
-    "title": "Multiple-root-detection-bypass",
-    "description": "The below script can bypass multiple root detection libraries",
-    "author": "KishorBal",
-    "likes": 0,
-    "seen": 19000
   },
   {
     "id": "Raghav-Gupta99/test-1",
@@ -2136,22 +1624,6 @@
     "seen": 633
   },
   {
-    "id": "d3tonator/ssl-and-root-detection-bypass",
-    "title": "SSL and Root Detection Bypass",
-    "description": "Work with flutter based app to",
-    "author": "d3tonator",
-    "likes": 0,
-    "seen": 956
-  },
-  {
-    "id": "lolicon/conscrypt-ca",
-    "title": "conscrypt-ca",
-    "description": "change upsidedown cake cert root",
-    "author": "lolicon",
-    "likes": 0,
-    "seen": 323
-  },
-  {
     "id": "jackkongjr/load-from-asset-folder",
     "title": "Load from asset folder",
     "description": "Load js files when asset folder has been encrypted on a cordova mobile app",
@@ -2237,7 +1709,7 @@
     "description": "use StrictMode.noteSlowCall to mark common slow binder call on main thread(IActivityManager, IPackageManager, IConnectivityManager)",
     "author": "dvdface",
     "likes": 0,
-    "seen": 197
+    "seen": 198
   },
   {
     "id": "rodnt/android-sslunpin-mix-methods",
@@ -2317,7 +1789,7 @@
     "description": "hook javascript interfaces",
     "author": "komen205",
     "likes": 0,
-    "seen": 244
+    "seen": 246
   },
   {
     "id": "ivan-sincek/android-ssl-pinning-bypass-2",
@@ -2364,78 +1836,6 @@
     "title": "cdsv",
     "description": "sdf",
     "author": "SammySM",
-    "likes": 0,
-    "seen": 1000
-  },
-  {
-    "id": "SYM01/ios-disable-ssl-check",
-    "title": "ios-disable-ssl-check",
-    "description": "Disable SSL certificate check for iOS app.",
-    "author": "SYM01",
-    "likes": 0,
-    "seen": 2000
-  },
-  {
-    "id": "snooze6/objection",
-    "title": "objection",
-    "description": "objection agents test",
-    "author": "snooze6",
-    "likes": 0,
-    "seen": 4000
-  },
-  {
-    "id": "vumail159951/string",
-    "title": "string",
-    "description": "string",
-    "author": "vumail159951",
-    "likes": 0,
-    "seen": 1000
-  },
-  {
-    "id": "Malfarion/okhttp",
-    "title": "OkHTTP",
-    "description": "1",
-    "author": "Malfarion",
-    "likes": 0,
-    "seen": 1000
-  },
-  {
-    "id": "ivan-sincek/android-intent-monitor",
-    "title": "android-intent-monitor",
-    "description": "Created for personal use.",
-    "author": "ivan-sincek",
-    "likes": 0,
-    "seen": 618
-  },
-  {
-    "id": "vumail159951/asd1231",
-    "title": "asd1231",
-    "description": "124",
-    "author": "vumail159951",
-    "likes": 0,
-    "seen": 767
-  },
-  {
-    "id": "rodnt/ios-jailbreak-bypass",
-    "title": "iOS Jailbreak Bypass",
-    "description": "Bypass the commonly used root techniques designed for simple apps, intended for testing purposes. Strong Runtime Application Self-Protection (RASP) will detect this easily.",
-    "author": "rodnt",
-    "likes": 0,
-    "seen": 0
-  },
-  {
-    "id": "dzonerzy/filedumper",
-    "title": "filedumper",
-    "description": "Dump dynamically created files, note: this require a custom send message handler",
-    "author": "dzonerzy",
-    "likes": 0,
-    "seen": 7000
-  },
-  {
-    "id": "nextflow/tt",
-    "title": "tt",
-    "description": "tt",
-    "author": "nextflow",
     "likes": 0,
     "seen": 1000
   },
@@ -2493,7 +1893,7 @@
     "description": "Universal Root Detection and SSL Pinning Bypass",
     "author": "Q0120S",
     "likes": 0,
-    "seen": 867
+    "seen": 868
   },
   {
     "id": "Malfarion/2",
@@ -2565,7 +1965,7 @@
     "description": "Dynamically parsing Android il2cpp, using export methods to help us quickly analyze game logic, type resolution ... @ https://github.com/axhlzy/Il2CppHookScripts",
     "author": "axhlzy",
     "likes": 0,
-    "seen": 919
+    "seen": 920
   },
   {
     "id": "AnonymousVip/bbox",
@@ -2765,7 +2165,7 @@
     "description": "add trace for binder call from binderproxy, use this feature to figure out which binder interface it calls",
     "author": "dvdface",
     "likes": 0,
-    "seen": 212
+    "seen": 214
   },
   {
     "id": "s1xtw03/ios-url-scheme-fuzzing-from-file",
