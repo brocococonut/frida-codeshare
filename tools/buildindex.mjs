@@ -34,4 +34,4 @@ for (let p = 2; p < lastPage; p++) {
   all.push(...collectFromPage($))
 }
 
-await writeFile('docs/codeshare.json', JSON.stringify(all, null, 2))
+await writeFile('public/codeshare.json', JSON.stringify(all, null, 2))

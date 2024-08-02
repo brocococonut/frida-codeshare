@@ -749,7 +749,7 @@
     "description": "Simple frida script that Intercept all calbacks of iOS's UIControls, like button click and write to console which of them will be called when user will interact with UIControl.",
     "author": "chepaika",
     "likes": 1,
-    "seen": 997
+    "seen": 998
   },
   {
     "id": "iDone/automatic-magic-code-locating-loader",
@@ -805,7 +805,7 @@
     "description": "Simple frida script that Intercept all calbacks of iOS's UIControls, like button click and write to console which of them will be called when user will interact with UIControl.",
     "author": "chepaika",
     "likes": 1,
-    "seen": 997
+    "seen": 998
   },
   {
     "id": "JJK96/iroot-root-detection-bypass",
@@ -1093,7 +1093,7 @@
     "description": "Script to instantly display current tab URL on Chrome Android (Suitable for fast URL capturing). Buy me a coffee: https://www.buymeacoffee.com/raphaelQ",
     "author": "raphc43",
     "likes": 1,
-    "seen": 399
+    "seen": 400
   },
   {
     "id": "ChiChou/objective-c-class-hierarchy-dumper",
@@ -1181,7 +1181,7 @@
     "description": "Script to instantly display current tab URL on Chrome Android (Suitable for fast URL capturing). Buy me a coffee: https://www.buymeacoffee.com/raphaelQ",
     "author": "raphc43",
     "likes": 1,
-    "seen": 399
+    "seen": 400
   },
   {
     "id": "teknogeek/android-universal-ssl-unpin",
