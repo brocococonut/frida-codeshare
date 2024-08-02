@@ -22,11 +22,12 @@ export default function App () {
   useEffect(() => {
     if (term) {
       // very simplistic search
+      const t = term.toLowerCase()
       resultsSet(
         (data || []).filter(row =>
-          row.id.toLowerCase().includes(term.toLowerCase()) ||
-            row.title.toLowerCase().includes(term.toLowerCase()) ||
-            row.description.toLowerCase().includes(term.toLowerCase())
+          row.id.toLowerCase().includes(t) ||
+            row.title.toLowerCase().includes(t) ||
+            row.description.toLowerCase().includes(t)
         ).sort(sortBy(sortByField))
       )
     } else {
