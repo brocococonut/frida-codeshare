@@ -1,0 +1,12 @@
+{
+  "name": "frida-codeshare",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:index": "node buildindex.mjs"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
